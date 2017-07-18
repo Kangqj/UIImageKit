@@ -30,4 +30,7 @@
 
 + (UIImage *)drawText:(NSString *)text color:(UIColor *)color font:(UIFont *)font size:(CGSize)size;
 
+//贝塞尔曲线
++ (UIImage *)drawBezierLineImageWithColor:(UIColor *)color size:(CGSize)size isEmpty:(BOOL)empty;
+
 @end
