@@ -6,7 +6,7 @@
 //  Copyright © 2016年 康起军. All rights reserved.
 //
 
-//#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 
 @interface UIImage (Generate)
 
