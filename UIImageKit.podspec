@@ -12,13 +12,14 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "UIImageKit is a library of UIImage class."
   s.description  = <<-DESC 
-                    UIImageKit is a library of UIImage class.
+                    UIImageKit is a library of UIImage class, a simple kit.
                    DESC
   s.homepage     = "https://github.com/Kangqj/UIImageKit"
   s.license      = "MIT"
   s.author       = { "Kangqj" => "kang_qj@sina.cn" }
   s.source       = { :git => "https://github.com/Kangqj/UIImageKit.git", :tag => "#{s.version}" }
-  s.source_files  = "UIImageKit/*.{h,m}"
+  s.source_files = "UIImageKit/*.{h,m}"
+  s.platform     = :ios
   s.framework  = "UIKit"
 
 end
