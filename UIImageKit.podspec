@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "UIImageKit is a library of UIImage class. "
+  s.description  = <<-DESC 
+                          UIImageKit is a library of UIImage class.
+                   DESC
 
   s.homepage     = "https://github.com/Kangqj/UIImageKit"
   # s.screenshots  = "http://www.jianshu.com/p/28859be3225d"
@@ -89,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "UIImageKit/UIImageKit/*.{h,m}"
+  s.source_files  = "UIImageKit/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
