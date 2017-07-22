@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   
   s.name         = "UIImageKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "UIImageKit is a library of UIImage class."
   s.description  = <<-DESC 
                     UIImageKit is a library of UIImage class, a simple kit.

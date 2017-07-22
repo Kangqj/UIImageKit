@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0498761F1F233B58003D10AF /* UIImageKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageKit.h; sourceTree = "<group>"; };
 		04B9EEF91F1CFF500061C2E8 /* UIImageKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B9EEFD1F1CFF500061C2E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B9EEFF1F1CFF500061C2E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 				04B9EF311F1D05370061C2E8 /* UIColor+CustomExtensions.m */,
 				04B9EF321F1D05370061C2E8 /* UIImage+Generate.h */,
 				04B9EF331F1D05370061C2E8 /* UIImage+Generate.m */,
+				0498761F1F233B58003D10AF /* UIImageKit.h */,
 			);
 			path = UIImageKit;
 			sourceTree = "<group>";
@@ -518,6 +520,7 @@
 				04B9EF281F1CFF500061C2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B9EF291F1CFF500061C2E8 /* Build configuration list for PBXNativeTarget "UIImageKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				04B9EF2B1F1CFF500061C2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B9EF2C1F1CFF500061C2E8 /* Build configuration list for PBXNativeTarget "UIImageKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +538,7 @@
 				04B9EF2E1F1CFF500061C2E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
